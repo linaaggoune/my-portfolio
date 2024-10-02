@@ -1,50 +1,78 @@
+/* Base Styles */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 20px;
+    font-family: Arial, sans-serif; /* Setting a default font for the entire document */
+    line-height: 1.6; /* Improving readability by increasing line height */
+    margin: 0; /* Removing default margin */
+    padding: 0; /* Removing default padding */
 }
 
 header {
-    text-align: center;
-    margin-bottom: 20px;
+    background-color: #4CAF50; /* Header background color */
+    color: white; /* Text color for header */
+    padding: 20px; /* Padding around header */
+    text-align: center; /* Center-aligning text */
 }
 
 h1 {
-    font-size: 2.5rem;
-    margin-bottom: 5px;
+    margin: 0; /* Removing default margin for h1 */
 }
 
 h2 {
-    font-size: 1.8rem;
-    margin-top: 30px;
-}
-
-h3 {
-    font-size: 1.4rem;
-    margin-top: 20px;
-}
-
-p, ul {
-    font-size: 1.1rem;
-    margin-bottom: 10px;
+    color: #4CAF50; /* Color for section titles */
+    margin-top: 20px; /* Space above section titles */
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: none; /* Removing bullet points from lists */
+    padding: 0; /* Removing padding from lists */
 }
 
-ul li {
-    margin-bottom: 5px;
+li {
+    margin-bottom: 10px; /* Space between list items */
 }
 
-a {
-    color: #007bff;
-    text-decoration: none;
+/* Section Styling */
+section {
+    padding: 20px; /* Padding inside sections */
 }
 
-a:hover {
-    text-decoration: underline;
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        padding: 15px; /* Reducing padding on smaller screens */
+    }
+    
+    h1 {
+        font-size: 1.8em; /* Adjusting font size for h1 */
+    }
+    
+    h2 {
+        font-size: 1.5em; /* Adjusting font size for h2 */
+    }
+
+    section {
+        padding: 15px; /* Reducing section padding */
+    }
+
+    li {
+        font-size: 0.9em; /* Adjusting list item font size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1.2em; /* Further reducing header font size */
+    }
+
+    h1 {
+        font-size: 1.5em; /* Adjusting font size for h1 */
+    }
+    
+    h2 {
+        font-size: 1.3em; /* Adjusting font size for h2 */
+    }
+    
+    li {
+        font-size: 0.8em; /* Further reducing list item font size */
+    }
 }
