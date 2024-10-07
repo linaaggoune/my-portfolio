@@ -76,3 +76,16 @@ section {
         font-size: 0.8em; /* Further reducing list item font size */
     }
 }
+
+.image-section {
+    width: 100px; /* Set the width of the section */
+    height: 100px; /* Set the height of the section */
+    overflow: hidden; /* Ensure no overflow */
+    position: relative; /* Positioning context for carousel controls */
+  }
+  
+  .image-section img {
+    width: 100%; /* Make images fill the width of the container */
+    height: 100%; /* Make images fill the height of the container */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire area */
+  }
