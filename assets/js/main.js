@@ -102,6 +102,7 @@
   }
   window.addEventListener('load', aosInit);
 
+  
   /**
    * Init typed.js
    */

@@ -4,6 +4,7 @@ body {
     line-height: 1.6; /* Improving readability by increasing line height */
     margin: 0; /* Removing default margin */
     padding: 0; /* Removing default padding */
+
 }
 
 header {
@@ -35,6 +36,8 @@ li {
 section {
     padding: 20px; /* Padding inside sections */
 }
+
+  
 
 /* Responsive Design */
 @media (max-width: 768px) {
